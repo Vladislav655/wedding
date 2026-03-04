@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Екатерина & Владислав</title>
+
+<style>
+
+body{
+margin:0;
+font-family: 'Georgia', serif;
+background:#002A42;
+color:white;
+text-align:center;
+}
+
+.hero{
+height:100vh;
+background:url('photo.jpg') center/cover no-repeat;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background-blend-mode: multiply;
+background-color: rgba(0,0,0,0.3);
+}
+
+.hero h1{
+font-size:60px;
+margin:0;
+}
+
+.date{
+font-size:28px;
+margin-top:10px;
+color:#C1121F;
+}
+
+.section{
+padding:80px 20px;
+}
+
+.card{
+background:white;
+color:#002A42;
+max-width:600px;
+margin:auto;
+padding:40px;
+border-radius:12px;
+}
+
+.place{
+font-size:26px;
+margin-bottom:10px;
+}
+
+.time{
+font-size:22px;
+color:#2722C6;
+}
+
+.rsvp{
+margin-top:30px;
+}
+
+button{
+background:#C1121F;
+color:white;
+border:none;
+padding:15px 30px;
+font-size:18px;
+border-radius:8px;
+cursor:pointer;
+}
+
+button:hover{
+background:#a30e18;
+}
+
+footer{
+padding:40px;
+font-size:14px;
+opacity:0.7;
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<h1>Екатерина & Владислав</h1>
+<div class="date">20 июня 2026</div>
+
+</section>
+
+
+<section class="section">
+
+<div class="card">
+
+<h2>Мы будем рады разделить этот день с вами</h2>
+
+<p>
+Текст приглашения появится здесь.
+</p>
+
+</div>
+
+</section>
+
+
+<section class="section">
+
+<div class="card">
+
+<div class="place">Ресторан Пепперони</div>
+
+<div class="time">
+Начало в 18:00
+</div>
+
+</div>
+
+</section>
+
+
+<section class="section">
+
+<div class="card">
+
+<h2>Подтвердите присутствие</h2>
+
+<div class="rsvp">
+
+<button onclick="alert('RSVP форма будет добавлена')">
+Подтвердить участие
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+Екатерина & Владислав • 20.06.2026
+
+</footer>
+
+</body>
+</html>
